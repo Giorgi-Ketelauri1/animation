@@ -1,0 +1,76 @@
+.alaverdi {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.sherekilebi {
+	width: 350px;
+	height: 250px;
+	top: 50px;
+	left: 60px;
+	position: absolute;
+	animation: frena 10s infinite;
+	animation-timing-function: linear;
+	z-index: 10;
+}
+.cloud {
+	width: 150px;
+	height: 90px;
+	position: absolute;
+	top: 60px;
+	right: 70px;
+	z-index: 11;
+	animation: cloud 10s infinite;
+	animation-timing-function: linear;
+}
+.grubeli {
+	width: 150px;
+	height: 90px;
+	position: absolute;
+	top: 200px;
+	right: 40px;
+	z-index: 11;
+	animation: grubeli 10s infinite;
+	animation-timing-function: linear;
+}.cloud2 {
+	width: 200px;
+	height: 140px;
+	position: absolute;
+	top: 200px;
+	left: 40px;
+	z-index: 9;
+	animation: cloud2 10s infinite;
+	animation-timing-function: linear;
+}
+@keyframes frena {
+	0% {left: 0px; top: 0px; transform: rotate(0deg);}
+	20% {left: 200px; top: 70px; transform: rotate(20deg);}
+	40% {left: 400px; top: 40px; transform: rotate(15deg);}
+	60% {left: 600px; top: 90px; transform: rotate(20deg);}
+	80% {left: 800px; top: 50px; transform: rotate(10deg);}
+	100% {left: 1000px; top: 70px; transform: rotate(20deg);}
+}
+@keyframes cloud {
+	0% {right: 0px; top: 0px;}
+	20% {right: 200px; top: 70px;}
+	40% {right: 400px; top: 40px;}
+	60% {right: 600px; top: 90px;}
+	80% {right: 800px; top: 50px;}
+	100% {right: 1000px; top: 70px;}
+}
+@keyframes grubeli {
+	0% {right: 0px; top: 200px;}
+	20% {right: 150px; top: 250px;}
+	40% {right: 400px; top: 270px;}
+	60% {right: 600px; top: 230px;}
+	80% {right: 800px; top: 290px;}
+	100% {right: 1000px; top: 240px;}
+}
+@keyframes cloud2 {
+	0% {left: 0px; top: 200px;}
+	20% {left: 200px; top: 120px;}
+	40% {left: 400px; top: 30px;}
+	60% {left: 600px; top: 100px;}
+	80% {left: 800px; top: 60px;}
+	100% {left: 1000px; top: 150px;}
+}
